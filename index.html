@@ -16,10 +16,10 @@
     <h1 style="text-align: center;">STUDENT FORM</h1>
     <form action="#" method="post">
         <label for="name">NAME : 
-            <input type="text" name="name" required>
+            <input type="text" name="name" id="name" required>
         </label><br><br>
         <label for="year">YEAR : 
-            <select name="year" required>
+            <select name="year" id="year" required>
                 <option value="">Select</option>
                 <option value="1st">I</option>
                 <option value="2nd">II</option>
@@ -27,20 +27,20 @@
             </select>
         </label><br><br>
         <label for="gender" >GENDER :
-            <input type="radio" name="gender" value="male" required>Male
-            <input type="radio" name="gender" value="female">Female
-            <input type="radio" name="gender" value="other">Other
+            <input type="radio" name="gender" id="gender" value="male" required>Male
+            <input type="radio" name="gender" id="gender" value="female">Female
+            <input type="radio" name="gender" id="gender" value="other">Other
         </label><br><br>
         <label for="dob">DATE OF BIRTH : 
-            <input type="date" name="dob" required>
+            <input type="date" name="dob" id="dob" required>
         </label><br><br>
         <label for="mail">MAIL ID : 
-            <input type="email" name="mail" required>
+            <input type="email" name="mail" id="mail" required>
         </label><br><br>
         <label for="lang">Languages known :
-            <input type="checkbox" name="lang" value="java">Java
-            <input type="checkbox" name="lang" value="python">Python
-            <input type="checkbox" name="lang" value="js">Javascript
+            <input type="checkbox" id="lang"  name="lang" value="java">Java
+            <input type="checkbox" id="lang" name="lang" value="python">Python
+            <input type="checkbox" id="lang" name="lang" value="js">Javascript
         </label><br><br>
         <input type="submit">
     </form>
